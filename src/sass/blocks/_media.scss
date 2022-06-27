@@ -1,0 +1,113 @@
+@media (max-width: 1200px) {
+    body {
+        max-width: 1200px;
+    }
+    .container {
+        position: relative;
+        max-width: 960px;
+    }
+    .nav {
+        margin-right: 70px;
+        &__hamburger {
+            right: 0;
+        }
+    }
+    .promo {
+        padding: 200px 0 0 0;
+        &__title {
+            font-size: 50px;
+        }
+        &__subtitle {
+            font-size: 18px;
+        }
+        &__btn-get {
+            width: 152px;
+            height: 40px;
+        }
+        &__btn-learn {
+            height: 40px;
+            width: 125px;
+        }
+    }
+    .client {
+        &__wrap {
+            justify-content: space-between;
+        }
+        &__img {
+            margin: 0;
+        }
+        &:first-child {
+            margin: 0;
+        }
+        &__subscribe {
+            gap: 85px;
+            padding: 30px 20px 0 20px;
+            width: auto;
+        }
+        form {
+            justify-content: end;
+        }
+        input {
+            width: 233px;
+        }
+        button {
+            width: 97px;
+        }
+    }
+    .request {
+        &__wrap {
+            justify-content: space-around;
+        }
+        button {
+            margin: 0;
+        }
+    }
+    .footer {
+        .container {
+            margin: 0 auto;
+        }
+        padding: 50px 0 0 0;
+        &__menu {
+            justify-content: space-around;
+            // gap: 5;
+        }
+        &__list {
+            width: 130px;
+            &_contact {
+                width: 225px;
+                gap: 12px;
+            }
+        }
+        &__footer {
+            margin-top: 53px;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    body {
+        max-width: 992px;
+    }
+    .container {
+        max-width: 760px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        max-width: 768px;
+    }
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        max-width: 100%;
+    }
+    .container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+}
