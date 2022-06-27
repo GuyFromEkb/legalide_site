@@ -1,0 +1,39 @@
+.request {
+    padding: 40px 0;
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__title {
+        font-family: 'Martel';
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0.1px;
+        color: $black;
+        text-align: start;
+    }
+    &__subtitle {
+        margin-top: 10px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: $gray;
+    }
+    &__button {
+        margin-right: 146px;
+        width: 158px;
+        height: 58px;
+        background: #784F33;
+        border-radius: 5px;
+        font-family: 'Open Sans';
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+    }
+}
