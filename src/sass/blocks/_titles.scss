@@ -1,0 +1,32 @@
+.title {
+    text-align: center;
+    font-family: 'Martel';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: $black;
+}
+
+.subtitle {
+    margin: 0 auto;
+    width: 468px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: $gray;
+    span {
+        display: block;
+    }
+}
+
+.mt10px {
+    margin-top: 10px;
+}
+
+.mt15px {
+    margin-top: 15px;
+}

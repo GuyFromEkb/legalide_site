@@ -1,0 +1,56 @@
+.nav {
+    display: flex;
+    align-items: center;
+    &__list {
+        list-style-type: none;
+        display: flex;
+        gap: 27px;
+    }
+    &__item {
+        a {
+            color: $gray;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 24px;
+            text-decoration: none;
+        }
+    }
+    &__btn {
+        margin-left: 43px;
+        display: flex;
+        gap: 18px;
+    }
+    &__cart,
+    &__search {
+        img {
+            width: 20px;
+            height: 20px;
+            object-fit: scale-down;
+            height: auto;
+        }
+    }
+    &__hamburger {
+        cursor: pointer;
+        width: 23px;
+        height: 14px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        position: absolute;
+        right: 59px;
+        top: 8px;
+        span {
+            background-color: $gray;
+            display: block;
+            height: 2px;
+            width: 100%;
+            &:nth-child(2) {
+                width: 17px;
+            }
+            &:nth-child(3) {
+                width: 10px;
+            }
+        }
+    }
+}

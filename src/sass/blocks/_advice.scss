@@ -1,0 +1,43 @@
+.advice {
+    padding: 127px 0 114px 0;
+    background-color: $main-bg;
+    span {
+        display: block;
+    }
+    &__wrap {
+        padding: 0 5px;
+        margin-top: 45px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 230px);
+        justify-content: space-between;
+    }
+    &__item {
+        overflow: hidden;
+        background: #fff;
+        height: 317px;
+        padding-top: 30px;
+        &_title {
+            padding-left: 30px;
+            font-family: 'Martel';
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.1px;
+            color: $black;
+        }
+        &_descr {
+            padding-left: 30px;
+            padding-right: 39px;
+            margin-top: 15px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 0.2px;
+            color: $gray;
+        }
+        &_img {
+            margin-top: 30px;
+            width: 100%;
+        }
+    }
+}

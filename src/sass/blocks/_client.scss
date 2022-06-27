@@ -1,0 +1,68 @@
+.client {
+    position: relative;
+    Height: 339px;
+    background: linear-gradient(to bottom, $main-bg 262px, $black 50%);
+    &__wrap {
+        padding-top: 51px;
+        padding-left: 27px;
+        display: flex;
+        // gap: 30px;
+        align-items: center;
+    }
+    &__img {
+        margin-right: 30px;
+        object-fit: scale-down;
+        height: auto;
+        max-width: 152px;
+        &:first-child {
+            margin-right: 52px;
+        }
+    }
+    &__subscribe {
+        padding: 30px 0 0 50px;
+        gap: 180px;
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 986px;
+        height: 124px;
+        background: linear-gradient(270deg, #295C7A -1.04%, #0072B5 100%);
+        border-radius: 2px;
+        display: flex;
+    }
+    &__title {
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0.1px;
+        color: #FFFFFF;
+        width: 253px;
+        text-align: start;
+    }
+    form {
+        margin-top: 2px;
+        Width: 450px;
+        Height: 58px;
+        display: flex;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 28px;
+    }
+    input {
+        width: 333px;
+        background: #F9F9F9;
+        border: 1px solid #E6E6E6;
+        border-radius: 5px;
+        border-radius: 5px 0 0 5px;
+        padding: 15px 20px;
+        color: $gray
+    }
+    button {
+        color: #fff;
+        width: 117px;
+        background: #D0A144;
+        border: 1px solid #E6E6E6;
+        border-left: none;
+        border-radius: 0px 5px 5px 0px
+    }
+}
