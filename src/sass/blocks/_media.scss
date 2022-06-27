@@ -30,6 +30,16 @@
             width: 125px;
         }
     }
+    .area {
+        &__block {
+            width: 300px;
+        }
+    }
+    .whowe {
+        &__wrap {
+            gap: 100px;
+        }
+    }
     .client {
         &__wrap {
             justify-content: space-between;
@@ -94,7 +104,7 @@
         max-width: 760px;
     }
     .header {
-        top: 20px;
+        // top: 20px;
     }
     .nav {
         &__hamburger {
@@ -187,7 +197,7 @@
     }
     .container {
         max-width: 540px;
-        padding: 10px;
+        padding: 0 10px;
     }
     .nav {
         margin-right: 40px;
@@ -197,9 +207,6 @@
         &__btn {
             gap: 10px;
             margin-left: 20px;
-        }
-        &__hamburger {
-            top: 21px;
         }
     }
     .promo {
