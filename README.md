@@ -7,6 +7,9 @@
 
 В макете, меню постоянно открыто...Сделал, чтобы раскрывалось, по нажатию на "гамбургер" ( в мобильной версии аналогично)  
 
+Видео в макете реализовано, через youtube(подставил случаенное, по тематике сайта)..  
+Загрузка на страницу, начинается, только после нажатия на кнопку play
+
 [Figma макет](https://www.figma.com/file/uYEVZl5ftL4M2mINrRZ3ZI/%5BPublished%5D%5BEN%5D-%C2%ABLegalide%C2%BB)  
   
 [URL страницы](https://guyfromekb.github.io/projects/legalide/index.html)  
