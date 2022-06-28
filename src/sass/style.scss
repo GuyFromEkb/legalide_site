@@ -9,7 +9,9 @@
     padding: 0;
 }
 
-.title {}
+.hide {
+    transform: translateX(350%);
+}
 
 button {
     outline: none!important;

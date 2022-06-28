@@ -1,7 +1,10 @@
 .header {
+    max-height: 104px;
+    transition: all ease-in-out .8s;
     top: 36px;
     width: 100%;
     position: absolute;
+    overflow: hidden;
     &__nav {
         padding-right: 23px;
         display: flex;

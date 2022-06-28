@@ -338,4 +338,62 @@
         max-width: 100%;
         padding: 0 10px;
     }
+    .show-menu {
+        max-height: 532px;
+    }
+    .hide-mobile {
+        visibility: hidden;
+        opacity: 0;
+    }
+    .header {
+        position: static;
+        height: 532px;
+        top: 0;
+        background: #f7f7f7;
+        &__nav {
+            margin-right: 0;
+            padding: 36px 0 0 0;
+        }
+    }
+    .nav {
+        margin-right: 0;
+        &__hamburger {
+            top: 45px;
+            right: 21px;
+        }
+        &__list {
+            width: 112px;
+            top: 164px;
+            left: 50%;
+            transform: translateX(-50%);
+            position: absolute;
+            flex-direction: column;
+            gap: 30px;
+        }
+        &__btn {
+            position: absolute;
+            right: 77px;
+            margin-left: 0;
+            gap: 24px;
+        }
+        &__cart,
+        &__search {
+            img {
+                width: auto;
+                height: 24px;
+                object-fit: scale-down;
+            }
+        }
+        &__item {
+            a {
+                font-weight: 400;
+                font-size: 30px;
+                line-height: 45px;
+                text-align: center;
+            }
+        }
+    }
+    .promo {
+        padding: 0;
+    }
 }
