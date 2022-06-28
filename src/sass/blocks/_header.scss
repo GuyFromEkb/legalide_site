@@ -6,6 +6,7 @@
     position: absolute;
     overflow: hidden;
     &__nav {
+        overflow: hidden;
         padding-right: 23px;
         display: flex;
         justify-content: space-between;
